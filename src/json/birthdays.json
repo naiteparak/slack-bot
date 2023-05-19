@@ -1,0 +1,32 @@
+[
+  {
+    "supervisor": "John@foxford.ru",
+    "employees": {
+      "employe1": {
+        "name": "Иванов Иван Иванович",
+        "email": "ivanov.i@foxford.ru",
+        "birthday": "11.11.2021"
+      },
+      "employe2": {
+        "name": "Иванов Василий Иванович",
+        "email": "ivanov.v@foxford.ru",
+        "birthday": "12.11.2021"
+      }
+    }
+  },
+  {
+    "supervisor": "Pol@foxford.ru",
+    "employees": {
+      "employe1": {
+        "name": "Сидоров Иван Иванович",
+        "email": "sidorov.i@foxford.ru",
+        "birthday": "11.11.2021"
+      },
+      "employe2": {
+        "name": "Сидоров Василий Иванович",
+        "email": "sidorov.v@foxford.ru",
+        "birthday": "12.11.2021"
+      }
+    }
+  }
+]
