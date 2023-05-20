@@ -3,7 +3,7 @@ import axios from 'axios';
 import { sendMessageToUsers } from './send-message';
 
 export const setupCronJob = async function () {
-  const task = cron.schedule('*/10 * * * * *', async () => {
+  const task = cron.schedule('0 0 0 1/1 * ? *', async () => {
     try {
       const response = await axios.post(
         `http://localhost:${process.env.PORT}/getbd`,
